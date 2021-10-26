@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@600&display=swap');
+header{
+	max-width: 1140px;
+	margin:auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+header img{
+	margin: 20px 0px;
+	/*width: 7%;*/
+	/*Il faut mettre la taille de ton logo en px*/
+	width: 38px;
+}
+
+header > a{
+	width: 38px;
+}
+
+header ul li a{
+	color: grey;
+	font-size: 16px;
+	font-family: Open sans;
+}
+
+
+header ul{
+	list-style-type: none;
+}
+
+header ul li a:hover{
+	color: black;
+}
+
+a{
+	text-decoration: none;
+}
+
+.header ul li a {
+    list-style: inline; 
+    margin-right: 20px; 
+}
+ 
+header.header ul li {
+    display: inline; 
+}
+
+nav{
+	align-self: center;
+}
+
+main section.about h1{
+	text-align: center;
+	font-family: Open sans;
+	font-size: 20px;
+	line-height: 40px;
+	margin-right: 250px;
+	margin-left: 250px;
+	margin-top: 70px;
+	opacity: 70%;
+	letter-spacing: 3px;
+}
+
+main section.about p{
+	text-align: center;
+	font-family: Open sans;
+	font-size: 31px;
+	line-height: 40px;
+	margin-bottom: 150px;
+	margin-right: 350px;
+	margin-left: 350px;
+	opacity: 70%;
+}
+
+main section.image{
+	display: grid;
+	grid-template-columns: auto 33%;
+	max-width: 960px;
+	margin: auto;
+	gap: 50px;
+}
+
+.image img{
+	width: 100%;
+}
+
+.image .main{
+	font-family: Open sans;
+	font-size: 60px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+.image .paragraph{
+	font-family: Open sans;
+	color: grey;
+	opacity: 90%;
+	line-height: 25px;
+	font-size: 15px;
+}
+
+footer p{
+	color: grey;
+	font-size: 14px;
+	align-self: center;
+	line-height: 20px;
+	font-family: Open sans;
+}
+
+.grid3 img{
+	margin: 20px 0px;
+	/*width: 7%;*/
+	/*Il faut mettre la taille de ton logo en px*/
+	width: 38px;
+}
+
+footer{
+	
+	max-width: 1140px;
+	margin: auto;
+}
+
+.grid3{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 30px;
+}
+.grid2{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 450px;
+}
+
+.grid2 img{
+	margin: 20px 0px;
+	/*width: 7%;*/
+	/*Il faut mettre la taille de ton logo en px*/
+	width: 14px;
+	opacity: 50%;
+}
+
+.section2 p{
+	font-family: Open sans;
+	font-size: 15px;
+	line-height: 25px;
+	margin-bottom: 30px;
+	margin-right: 250px;
+	margin-left: 250px;
+	margin-top: 60px;
+	opacity: 70%;
+}
+ .section2 hr{
+ 	margin-top: 50px;
+ 	opacity: 30%;
+	width: 6%;
+ }
+
+
+ .menu{
+ 	display: grid;
+ 	grid-template-columns: repeat(3, 1fr);
+	gap: 30px;
+	max-width: 960px;
+	margin: auto;
+	font-family: Open Sans;
+	margin-top: 50px;
+ }
+
+ .menu li a{
+ 	text-decoration: none;
+ 	color: grey;
+ }
+
+ .menu li a:hover{
+ 	color: black;
+ }
+
+ main hr{
+ 	opacity: 50%;
+ 	margin-top: 100px;
+ 	margin-bottom: 80px;
+ }
